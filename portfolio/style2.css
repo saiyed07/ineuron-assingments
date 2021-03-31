@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+}
+.sidebar{
+    background-color: darksalmon;
+    flex: 0.18;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+}
+.sidebar>h1{
+    font-size:25px ;
+    text-align: center;
+    padding: 10px;
+    color: darkslategray;
+}
+.sidebarlinks{
+    text-align: center;
+    font-size: 10px;
+    color: darkslategray;
+    flex:0.7;
+    
+}
+.sidebarlinks>h1{
+    padding:20px;
+    border: solid;
+    margin: 10px;
+}
+.picture>img{
+    width: 28vh;
+    border: solid 10px darkslategray;
+}
+.picture{
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+}
+.contact>h1{
+    font-size:10px ;
+    padding: 10px;
+    color: darkslategray;
+    font-weight: 900;
+}
+.contact>li{
+    font-size:25px ;
+    color: darkslategray;
+    font-weight: 900;
+}
+.qual{
+    display:none;
+    flex-direction: column;
+    background-image: url("https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+    
+}
+.info{
+    background-color: beige;
+    background-image: url("http://izacap.com/wp-content/uploads/2017/08/iza-capital-our-portfolio-background-image.jpg");
+}
+.info>h1{
+    text-align: center;
+    font-size: 25px;
+    background-color: azure;
+    margin: 20px 10px;
+    font-size: 50px;
+    color: darkblue;
+    font-family: cursive;
+}
+.info>p{
+    border: solid 5px slateblue;
+    font-size: 25px;
+    color: antiquewhite;
+    padding: 15px;
+    margin: 100px 20px;
+    font-family: monospace;
+}
+.matter{
+    
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.head{
+    margin-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    
+}
+.head>h1{
+    text-align: center;
+    background-color: darkgray;
+    font-family: cursive;
+    font-size: 50px;
+}
+.work{
+    margin-top: 30px;
+    border: solid;
+    width: 60vh;
+    background-color: darkseagreen;
+    color: maroon;
+    border: solid 6px darkgreen;
+}
+}
+.work>h2{
+    color: crimson;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+
+.skills{
+    margin-left: 50px;
+    border: solid;
+    width: 60vh;
+    border: solid;
+    width: 60vh;
+    background-color: darkseagreen;
+    color: maroon;
+    height: 35.5vh;
+    border: solid 6px darkgreen;
+}
+
+}
+.skills>h1{
+    
+        color: crimson;
+        margin-left: 15px;
+        margin-top: 10px;
+    
+    
+}
+.certi{
+    margin-top: 30px;
+    border: solid;
+    margin-left: 50px;
+    width: 60vh;
+    height: 38vh;
+    width: 60vh;
+    color: bisque;
+    background-color: cadetblue;
+    border: solid 5px darkblue;
+}
+.education{
+    
+    width: 60vh;
+    color: bisque;
+    background-color: cadetblue;
+    border: solid 5px darkblue;
+}
+.education>h2{
+    color:crimson;
+    margin-left: 15px;
+    margin-top: 10px;
+    
+    
+}
+.certi>h1{
+    color:crimson;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+.certi>li{
+    margin: 10px;
+
+}
